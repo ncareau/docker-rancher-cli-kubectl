@@ -1,0 +1,24 @@
+{
+    "versions": [
+        {
+            "tag": "latest",
+            "rancher-cli2": "v2.3.0",
+            "k8s-kubectl": "v1.15.5"
+        },
+        {
+            "tag": "k8s1.15-rancher2.2.0",
+            "rancher-cli2": "v2.2.0",
+            "k8s-kubectl": "v1.15.5"
+        },
+        {
+            "tag": "k8s1.15-rancher2.3.0",
+            "rancher-cli2": "v2.3.0",
+            "k8s-kubectl": "v1.15.5"
+        },
+        {
+            "tag": "k8s1.15-rancher2.0.6",
+            "rancher-cli2": "v2.0.6",
+            "k8s-kubectl": "v1.15.5"
+        }
+    ]
+}
