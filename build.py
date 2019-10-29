@@ -48,7 +48,8 @@ def docker_build(versions,dry_run):
 
     # Build, tag and push images
     for version in versions:
-
+        tag = f"{DOCKER_IMAGE_NAME}:{version['tag']}"
+        dockerfile = version["tag"] + '.Dockerfile'
         rancher_cli_version = version["rancher-cli2"]
         k8s_kubectl_version = version["k8s-kubectl"]
 
@@ -58,10 +59,10 @@ def docker_build(versions,dry_run):
             flush=True,
         )
         if not dry_run:
-            docker_client.images.build(path='dist/', dockerfile=version["tag"] + '.Dockerfile', tag=version['tag'], rm=True, pull=True)
+            i = docker_client.images.build(path='dist/', dockerfile=dockerfile, tag=tag, rm=True, pull=True)
         print(f" pushing...", flush=True)
         if not dry_run:
-            docker_client.images.push(DOCKER_IMAGE_NAME, version["tag"])
+            i2= docker_client.images.push(DOCKER_IMAGE_NAME, tag=version['tag'])
 
 def main(dry_run):
 
