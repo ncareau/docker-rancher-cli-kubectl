@@ -1,6 +1,8 @@
 docker-rancher-cli-kubectl
 ===
 
+A simple docker image with kubectl and rancher-cli commands. 
+
 ## Latest
 The `latest` tag is currently:
 
@@ -20,14 +22,15 @@ rancher2.0-kubectl1.15 | v2.0.6 | v1.15.5
 
 ## References
 
-These reposiroty where use as reference for this project.
+These reposiroty were used as a reference for this project:
 
 * https://github.com/sra/rancher-cli-k8s
 * https://github.com/nikolaik/docker-python-nodejs 
 
 ## TODO
 
-Get cli version and kubernetes
+Get cli version and kubernetes dynamicaly
+
 https://github.com/rancher/rancher/releases/tag/v2.1.13
 
 https://hub.docker.com/r/lachlanevenson/k8s-kubectl/tags
