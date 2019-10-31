@@ -12,9 +12,11 @@ The `latest` tag is currently:
 Tag | Rancher-cli version | K8S-Kubectl version
 --- | --- | ---
 latest | v2.3.0 | v1.15.5
-kubectl1.15-rancher2.3.0 | v2.3.0 | v1.15.5
-kubectl1.15-rancher2.2.0 | v2.2.0 | v1.15.5
-kubectl1.15-rancher2.0.6 | v2.0.6 | v1.15.5
+rancher2.3-kubectl1.15 | v2.3.0 | v1.15.5
+rancher2.3-kubectllatest | v2.3.0 | latest
+rancher2.2-kubectl1.15 | v2.2.0 | v1.15.5
+rancher2.1-kubectl1.15 | v2.0.6 | v1.15.5
+rancher2.0-kubectl1.15 | v2.0.6 | v1.15.5
 
 ## References
 
@@ -30,26 +32,3 @@ https://github.com/rancher/rancher/releases/tag/v2.1.13
 
 https://hub.docker.com/r/lachlanevenson/k8s-kubectl/tags
 https://hub.docker.com/r/rancher/cli2/tags
-
-Rancher
-2.3.1
-    1.13.12
-    1.14.8
-    1.15.5 (default)
-    1.16.2 (experimental)
-
-2.2.0
-    1.12.9
-    1.13.10
-    1.14.6 (default)
-    1.15.3
-2.0.6
-
-
-K8s
-
-v1.16.2
-v1.15.5
-v1.14.8
-v1.13.12
-

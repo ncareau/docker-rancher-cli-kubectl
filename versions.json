@@ -6,17 +6,27 @@
             "k8s-kubectl": "v1.15.5"
         },
         {
-            "tag": "kubectl1.15-rancher2.3.0",
+            "tag": "rancher2.3-kubectl1.15",
             "rancher-cli2": "v2.3.0",
             "k8s-kubectl": "v1.15.5"
         },
         {
-            "tag": "kubectl1.15-rancher2.2.0",
+            "tag": "rancher2.3-kubectllatest",
+            "rancher-cli2": "v2.3.0",
+            "k8s-kubectl": "latest"
+        },
+        {
+            "tag": "rancher2.2-kubectl1.15",
             "rancher-cli2": "v2.2.0",
             "k8s-kubectl": "v1.15.5"
         },
         {
-            "tag": "kubectl1.15-rancher2.0.6",
+            "tag": "rancher2.1-kubectl1.15",
+            "rancher-cli2": "v2.0.6",
+            "k8s-kubectl": "v1.15.5"
+        },
+        {
+            "tag": "rancher2.0-kubectl1.15",
             "rancher-cli2": "v2.0.6",
             "k8s-kubectl": "v1.15.5"
         }
